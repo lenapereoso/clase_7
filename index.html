@@ -132,7 +132,7 @@
             /* Icono de maleta solo en el ÚLTIMO <h3> dentro de su contenedor (:last-of-type cuenta hermanos del mismo tag) */
             h3:last-of-type {
                 text-indent: 1.5rem;
-                background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-luggage-fill" viewBox="0 0 16 16"><path d="M2 1.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5V5h.5A1.5 1.5 0 0 1 8 6.5V7H7v-.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .5.5H4v1H2.5v.25a.75.75 0 0 1-1.5 0v-.335A1.5 1.5 0 0 1 0 13.5v-7A1.5 1.5 0 0 1 1.5 5H2zM3 5h2V2H3z"/><path d="M2.5 7a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0v-5a.5.5 0 0 1 .5-.5m10 1v-.5A1.5 1.5 0 0 0 11 6h-1a1.5 1.5 0 0 0-1.5 1.5V8H8v8h5V8zM10 7h1a.5.5 0 0 1 .5.5V8h-2v-.5A.5.5 0 0 1 10 7M5 9.5A1.5 1.5 0 0 1 6.5 8H7v8h-.5A1.5 1.5 0 0 1 5 14.5zm9 6.5V8h.5A1.5 1.5 0 0 1 16 9.5v5a1.5 1.5 0 0 1-1.5 1.5z"/></svg>');
+                background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>');
                 background-repeat: no-repeat;
                 background-size: 1rem 1rem;
             }
@@ -272,7 +272,7 @@
             
             <h2>Las mejores universidades del mundo en Arte y Diseño</h2>
             
-            <h5>Por <a href="">Nombre Apellido</a></h5>
+            <h5>Por <a href="https://github.com/lenapereoso">Renata Pereira</a></h5>
             
             <h6>Publicado el viernes 2 de octubre, 2026 &nbsp;&nbsp; 3:00 p.m. GMT-3</h6>
 
@@ -388,7 +388,7 @@
             const tbodyOtros = document.querySelector("#otros");
 
             // Dirección desde donde vamos a pedir los datos (JSON).
-            const ENDPOINT = "…";
+            const ENDPOINT = "https://api.myjson.online/v1/records/752f2f67-5853-4925-9b2c-99806fd14601";
 
             // Listas de países para clasificar cada universidad por continente.
             // "some()" revisará, dentro del forEach, si AL MENOS UNO de estos strings aparece en u.location
