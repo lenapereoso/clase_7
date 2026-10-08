@@ -1,6 +1,4 @@
-        <style>
-            /* Variables globales: si cambias algo aquí, cambia en todos los lugares donde se use esa variable */
-            :root {
+ {
                 /* Formas de definir colores (Hexadecimal, HSL, RGB, RGBA con A de Alpha, Nombrándolo) */
                 --color-bg: #eaeaea;
                 --color-bg-nota: hsl(30, 5%, 85%);
@@ -9,8 +7,8 @@
                 --color-text-light: rgba(90, 90, 90, 1);
                 --color-border: silver;
                 /* Tipografías: si la primera opción no existe, pasa a la siguiente */
-                --font-sans: "Cantarell", "Helvetica Neue", Helvetica, Arial, sans-serif;
-                --font-serif: "Noto Serif", Georgia, "Times New Roman", serif;
+                --font-sans: "DM Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+                --font-serif: "EB Garamond", Georgia, "Times New Roman", serif;
             }
 
             /* Se resetean TODOS los elementos (y sus pseudoelementos antes/después) para reiniciar márgenes y controlar el tamaño real de las cajas */
@@ -123,7 +121,7 @@
             /* Icono de maleta solo en el ÚLTIMO <h3> dentro de su contenedor (:last-of-type cuenta hermanos del mismo tag) */
             h3:last-of-type {
                 text-indent: 1.5rem;
-                background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>');
+                background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-emoji-smile-fill" viewBox="0 0 16 16"><path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16M7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5M4.285 9.567a.5.5 0 0 1 .683.183A3.5 3.5 0 0 0 8 11.5a3.5 3.5 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.5 4.5 0 0 1 8 12.5a4.5 4.5 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683M10 8c-.552 0-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5S10.552 8 10 8"/></svg>');
                 background-repeat: no-repeat;
                 background-size: 1rem 1rem;
             }
@@ -136,7 +134,7 @@
             /* Icono de trofeo solo en el ÚLTIMO <h4> dentro de su contenedor */
             h4:last-of-type {
                 text-indent: 1.5rem;
-                background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trophy-fill" viewBox="0 0 16 16"><path d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5q0 .807-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33 33 0 0 1 2.5.5m.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935m10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935"/></svg>');
+                background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>');
                 background-repeat: no-repeat;
                 background-size: 0.9rem;
                 background-position: 0rem 0.15rem;
@@ -254,4 +252,4 @@
                 font-weight: 700;
                 color: var(--color-text-light);
             }
-        </style>
+       
